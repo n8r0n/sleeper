@@ -6,9 +6,9 @@ on wake and sleep events.
 
 ##Installation of Daemon
 
-1. Build project.
+1. **Build** project.
 
-2. Locate executable (right-click under Products, then Show in Finder).
+2. Locate executable (right-click under **Products**, then **Show in Finder**).
 
 3. Copy executable to system bin directory of choice (e.g. `/usr/bin/`), renaming it to `sleepd`.
 
@@ -20,7 +20,7 @@ on wake and sleep events.
 
 7. Activate daemon with (normally, as root):
 
-> launchctl load -w /Library/LaunchDaemons/com.enscand.sleepd.plist
+> launchctl load -w /Library/LaunchDaemons/com.mycompany.sleepd.plist
 
 
-Help - natron-alias@hotmail.com 
+Help - mailto:n8r0n74@gmail.com
