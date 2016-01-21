@@ -1,3 +1,11 @@
+##Description
+
+This is a Cocoa command line application designed to be installed on an OS X system as a persistent daemon process. The daemon receives
+notifications when the OS X system sleeps or wakes, and allows the user to configure a script (with command line args) to be run,
+on wake and sleep events.
+
+##Installation of Daemon
+
 1. Build project.
 
 2. Locate executable (right-click under Products, then Show in Finder).
@@ -12,7 +20,7 @@
 
 7. Activate daemon with (normally, as root):
 
-   >> launchctl load -w /Library/LaunchDaemons/com.enscand.sleepd.plist
+> launchctl load -w /Library/LaunchDaemons/com.enscand.sleepd.plist
 
 
-Help - nathan@enscand.com
+Help - natron-alias@hotmail.com 
