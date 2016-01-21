@@ -20,7 +20,9 @@ on wake and sleep events.
 
 7. Activate daemon with (normally, as root):
 
-> launchctl load -w /Library/LaunchDaemons/com.mycompany.sleepd.plist
+    launchctl load -w /Library/LaunchDaemons/com.mycompany.sleepd.plist
 
 
-Help - mailto:n8r0n74@gmail.com
+##Help 
+
+ mail -  n8r0n74@gmail.com
