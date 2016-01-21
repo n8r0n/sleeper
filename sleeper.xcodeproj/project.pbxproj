@@ -25,11 +25,11 @@
 
 /* Begin PBXFileReference section */
 		974141F51C505BAE000BEEED /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
+		97624E811C508FFB006D7ED3 /* com.mycompany.sleepd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.mycompany.sleepd.plist; sourceTree = "<group>"; };
 		97FD5C3B1C4FB3FE0010B632 /* sleeper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sleeper; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FD5C3E1C4FB3FE0010B632 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97FD5C451C4FB4450010B632 /* SleepManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepManager.h; sourceTree = "<group>"; };
 		97FD5C461C4FB4450010B632 /* SleepManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepManager.m; sourceTree = "<group>"; };
-		97FD5C481C4FC5810010B632 /* com.enscand.sleepd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.enscand.sleepd.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 		97FD5C3D1C4FB3FE0010B632 /* sleeper */ = {
 			isa = PBXGroup;
 			children = (
+				97624E811C508FFB006D7ED3 /* com.mycompany.sleepd.plist */,
 				974141F51C505BAE000BEEED /* README */,
-				97FD5C481C4FC5810010B632 /* com.enscand.sleepd.plist */,
 				97FD5C3E1C4FB3FE0010B632 /* main.m */,
 				97FD5C451C4FB4450010B632 /* SleepManager.h */,
 				97FD5C461C4FB4450010B632 /* SleepManager.m */,
