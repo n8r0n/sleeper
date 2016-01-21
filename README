@@ -12,7 +12,7 @@
 
 7. Activate daemon with (normally, as root):
 
-   >> launchctl load -w /Library/LaunchDaemons/com.enscand.sleepd.plist
+   >> launchctl load -w /Library/LaunchDaemons/com.mycompany.sleepd.plist
 
 
-Help - nathan@enscand.com
+Help - natron-alias@hotmail.com

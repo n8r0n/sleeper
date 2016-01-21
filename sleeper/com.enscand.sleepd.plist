@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-   <dict>
-      <key>Label</key>
-      <string>com.enscand.sleepd</string>
-      <key>ProgramArguments</key>
-      <array>
-         <!-- name of the daemon executable file -->
-         <string>/usr/bin/sleepd</string>
-         <!-- list the executable and arguments for the wake script -->
-         <string>-wakeargs</string>
-         <string>/usr/bin/killall</string>
-         <string>-HUP</string>
-         <string>mDNSResponder</string>
-         <!-- list the executable and arguments for the sleep script -->
-         <!--
-          <string>-sleepargs</string>
-          <string>TODO</string>
-          -->
-      </array>
-      <key>KeepAlive</key>
-      <true/>
-      <key>UserName</key>
-      <string>root</string>
-      <key>StandardOutPath</key>
-      <string>/var/log/sleepd-info.log</string>
-      <key>StandardErrorPath</key>
-      <string>/var/log/sleepd.log</string>
-   </dict>
+<dict>
+	<key>Label</key>
+	<string>com.mycompany.sleepd</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/sleepd</string>
+		<string>-wakeargs</string>
+		<string>/usr/bin/killall</string>
+		<string>-HUP</string>
+		<string>mDNSResponder</string>
+	</array>
+	<key>KeepAlive</key>
+	<true/>
+	<key>UserName</key>
+	<string>root</string>
+	<key>StandardOutPath</key>
+	<string>/var/log/sleepd-info.log</string>
+	<key>StandardErrorPath</key>
+	<string>/var/log/sleepd.log</string>
+</dict>
 </plist>

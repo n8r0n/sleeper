@@ -2,9 +2,6 @@
 //  SleepManager.h
 //  sleeper
 //
-//  Created by Nathan Scandella on 1/20/16.
-//  Copyright © 2016 Enscand, Inc. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 
