@@ -8,6 +8,9 @@
 @import AppKit;
 @import Foundation;
 
+#define SCRIPT_DELAY_SECS 5
+
+
 @interface SleepManager()
 @property (nonatomic, strong) NSMutableArray *wakeArgs;
 @property (nonatomic, strong) NSMutableArray *sleepArgs;
@@ -85,7 +88,9 @@
 
 - (void) receiveWakeNote: (NSNotification*) note {
    NSLog(@"receiveWakeNote: %@", [note name]);
-   [self executeTaskWithArgs: self.wakeArgs];
+   dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(SCRIPT_DELAY_SECS * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+      [self executeTaskWithArgs: self.wakeArgs];
+   });
 }
 
 - (void) registerForSleepWakeEvents {
